@@ -40,19 +40,19 @@ body {
 
 .heading {
 	text-align:center;
-	margin-top:250px;
+	margin-top:300px;
 	line-height:60px;
 	color: #ffffff;
 }
 .heading h2 {
-	font-size: 60px;
+	font-size: 100px;
 	font-weight: normal;
 	font-weight: 700;
 	height:140px;
 	line-height:80px;
 }
 .heading h3 {
-	font-size: 28px;
+	font-size: 50px;
 	font-weight: 700;
 	text-shadow: -1px -1px 5px rgba(0, 0, 0, 0.33);
 }
