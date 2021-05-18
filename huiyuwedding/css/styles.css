@@ -30,15 +30,19 @@ body {
 	height: 100%;
 	width:100%;
 	overflow: hidden;
-	position:fixed;
+	position:absolute;
 	text-shadow: 1px 1px rgba(0,0,0,0.3);
+	-webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    -o-background-size: cover !important;
+    background-size: cover !important;
 } 
 
 .heading {
 	text-align:center;
 	margin-top:250px;
 	line-height:60px;
-	color: #FF0000;
+	color: #ffffff;
 }
 .heading h2 {
 	font-size: 60px;
@@ -60,11 +64,12 @@ body {
 	text-align: center;
 	margin-top: 146px;
 	line-height: 48px;
+	
 }
 
 .styled div span {
 	display: block;
-	font-size: 16px;
+	font-size: 13px;
 	margin-top: 0;
 	font-weight: normal;
 	text-align: center;
@@ -78,13 +83,13 @@ body {
 .styled div {
 	display: inline-block;
 	margin-left: 10px;
-	font-size: 30px;
+	font-size: 50px;
 	font-weight: normal;
 	text-align: center;
 	height: 100px;
 	text-shadow: none;
 	vertical-align: middle;
-	color: #F44336;
+	color: #ff0000;
 	margin: 10px 4px;
 	height: auto;
 	width: 112px;
