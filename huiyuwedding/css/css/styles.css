@@ -64,12 +64,12 @@ body {
 	text-align: center;
 	margin-top: 146px;
 	line-height: 48px;
-	color:	#ffffff;
+	
 }
 
 .styled div span {
 	display: block;
-	font-size: 14px;
+	font-size: 13px;
 	margin-top: 0;
 	font-weight: normal;
 	text-align: center;
@@ -83,13 +83,13 @@ body {
 .styled div {
 	display: inline-block;
 	margin-left: 10px;
-	font-size: 30px;
+	font-size: 50px;
 	font-weight: normal;
 	text-align: center;
 	height: 100px;
 	text-shadow: none;
 	vertical-align: middle;
-	color: #F44336;
+	color: #ff0000;
 	margin: 10px 4px;
 	height: auto;
 	width: 112px;
