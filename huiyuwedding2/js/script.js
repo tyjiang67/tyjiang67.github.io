@@ -2,7 +2,7 @@ const STEP_LENGTH = 1;
 const CELL_SIZE = 1;
 const BORDER_WIDTH = 1;
 const MAX_FONT_SIZE = 800;
-const MAX_ELECTRONS = 0;
+const MAX_ELECTRONS = 1;
 const CELL_DISTANCE = CELL_SIZE + BORDER_WIDTH;
 
 // shorter for brighter paint
@@ -15,8 +15,8 @@ const CELL_REPAINT_INTERVAL = [
 const BG_COLOR = "#000000";
 const BORDER_COLOR = "#000000";
 /* 字体颜色 */
-const CELL_HIGHLIGHT = "#ffffff";
-const ELECTRON_COLOR = "#ffffff";
+const CELL_HIGHLIGHT = "#FF0000";
+const ELECTRON_COLOR = "#FF0000";
 const FONT_COLOR = "#FF0000";
 
 const FONT_FAMILY = '"Helvetica Neue", Arial, sans-serif';
@@ -785,7 +785,7 @@ function queue() {
 }
 
 function countdown() {
-  const arr = _.range(16, 0, -1);
+  const arr = _.range(17, 0, -1);
 
   let i = 0;
   const max = arr.length;
@@ -865,7 +865,7 @@ shape.init();
 shape.print("❤ ");
 
 /* 只需要修改这里的文字就行 */
-let arr = ["吴斌晖♥梁钰", "今天是你们结婚的日子❤", "祝你们","一生一世","两情相悦","三世尘缘","四世同喜","五谷丰登","六六顺畅","七夕有情","八方进财","久久恩爱","十全十美","百年好合","万千祝福","新婚快乐♥"];
+let arr = ["吴斌晖♥梁钰", "今天是", "你们结婚的日子❤", "祝你们","一生一世","两情相悦","三世尘缘","四世同喜","五谷丰登","六六顺畅","七夕有情","八方进财","久久恩爱","十全十美","百年好合","万千祝福","新婚快乐♥"];
 let i = -1;
 let time = setInterval(() => {
   if (i != arr.length - 1) {
