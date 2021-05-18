@@ -57,7 +57,7 @@ body {
 	text-shadow: -1px -1px 5px rgba(0, 0, 0, 0.33);
 }
 .heading h5{
-	font-size:14px;
+	font-size:45px;
 }
 
 .countdown {
@@ -83,8 +83,8 @@ body {
 .styled div {
 	display: inline-block;
 	margin-left: 10px;
-	font-size: 50px;
-	font-weight: normal;
+	font-size: 60px;
+	font-weight: 700;
 	text-align: center;
 	height: 100px;
 	text-shadow: none;
