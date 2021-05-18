@@ -12,12 +12,12 @@ const CELL_REPAINT_INTERVAL = [
   500, // to
 ];
 
-const BG_COLOR = "#ff6699";
-const BORDER_COLOR = "#ff6699";
+const BG_COLOR = "#000000";
+const BORDER_COLOR = "#000000";
 /* 字体颜色 */
-const CELL_HIGHLIGHT = "#009999";
-const ELECTRON_COLOR = "#009999";
-const FONT_COLOR = "#ffffff";
+const CELL_HIGHLIGHT = "#ffffff";
+const ELECTRON_COLOR = "#ffffff";
+const FONT_COLOR = "#FF0000";
 
 const FONT_FAMILY = '"Helvetica Neue", Arial, sans-serif';
 
