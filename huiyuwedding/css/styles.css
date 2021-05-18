@@ -40,23 +40,23 @@ body {
 
 .heading {
 	text-align:center;
-	margin-top:300px;
+	margin-top:400px;
 	line-height:60px;
 	color: #ffffff;
 }
-.heading h4 {
+.heading h2 {
 	font-size: 100px;
 	font-weight: normal;
 	font-weight: 700;
 	height:140px;
 	line-height:80px;
 }
-.heading h5 {
+.heading h3 {
 	font-size: 35px;
 	font-weight: 700;
 	text-shadow: -1px -1px 5px rgba(0, 0, 0, 0.33);
 }
-.heading h6{
+.heading h5{
 	font-size:35px;
 }
 
