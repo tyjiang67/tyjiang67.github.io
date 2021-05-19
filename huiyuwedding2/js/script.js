@@ -8,8 +8,8 @@ const CELL_DISTANCE = CELL_SIZE + BORDER_WIDTH;
 // shorter for brighter paint
 // be careful of performance issue
 const CELL_REPAINT_INTERVAL = [
-  499, // from
-  500, // to
+  50, // from
+  350, // to
 ];
 
 const BG_COLOR = "#000000";
