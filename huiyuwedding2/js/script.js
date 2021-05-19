@@ -1,6 +1,6 @@
 const STEP_LENGTH = 1;
 const CELL_SIZE = 1;
-const BORDER_WIDTH = 0;
+const BORDER_WIDTH = 1;
 const MAX_FONT_SIZE = 800;
 const MAX_ELECTRONS = 0;
 const CELL_DISTANCE = CELL_SIZE + BORDER_WIDTH;
@@ -8,8 +8,8 @@ const CELL_DISTANCE = CELL_SIZE + BORDER_WIDTH;
 // shorter for brighter paint
 // be careful of performance issue
 const CELL_REPAINT_INTERVAL = [
-  50, // from
-  350, // to
+  499.9, // from
+  500, // to
 ];
 
 const BG_COLOR = "#000000";
